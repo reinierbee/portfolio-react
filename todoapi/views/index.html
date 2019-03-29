@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo list</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <div class="background-image" style="background-image: url(bg.jpg);"></div>
+    <div class='container-main'>
+      <header>
+        <h1>Todo List <b>van reinier</b></h1>
+      </header>
+      <section id="add-todo">
+        <input id="add-todo-input" type="text" placeholder="New todo is ..."></input>
+        <!-- <a class="btn">Add</a> -->
+      </section>
+      <section id="todo">
+        <ul id="gridtodo" class="grid">
+        </ul>
+      </section>
+    </div>
+  </body>
+<script type="text/javascript" src="app.js"></script>
+</html>
